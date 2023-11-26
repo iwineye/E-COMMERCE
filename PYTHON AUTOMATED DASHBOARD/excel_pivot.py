@@ -1,11 +1,11 @@
 import pandas as pd
 
-df=pd.read_excel('CLOTHING LLINE START UP.xlsx')
+df=pd.read_excel('TWO_YEARS_SALES.xlsx')
 dp=pd.read_csv('products.csv')
 dg=pd.read_csv('customers.csv')
-df=df[['order_date','sale_ID','product_ID','state','customer_ID','quantity','total_price']]
-dp=dp[['product_ID','product_name','product_type','size','colour','price']]
-dg=dg[['customer_ID','gender','age','state']]
+df=df[['order_date','sales_id','product_id','state','customer_id','quantity','sales']]
+dp=dp[['product_id','product_name','product_type','size','colour','price']]
+dg=dg[['customer_id','gender','age','state']]
 
 #print(inner)
 
@@ -19,8 +19,8 @@ final=pd.merge(inner,dp)
 
 
 #print(final)
-final.to_excel('merged.xlsx','merged', startrow=4)
-pivot_table_1=final.pivot_table(index='product_type',columns='colour',values='total_price',aggfunc='sum')
+final.to_excel('merged_updated.xlsx','merged_updated', startrow=4)
+pivot_table_1=final.pivot_table(index='product_type',columns='colour',values='sales',aggfunc='sum')
 
 pivot_table_2=final.pivot_table(index='product_type',columns='size',values='quantity',aggfunc='sum')
 
@@ -30,13 +30,13 @@ pivot_table_4=final.pivot_table(index='product_type',columns='state',values='qua
 
 pivot_table_5=final.pivot_table(index='state',columns='order_date',values='quantity',aggfunc='sum')
 
-pivot_table_6=final.pivot_table(index='order_date',columns='state',values='total_price',aggfunc='sum')
+pivot_table_6=final.pivot_table(index='order_date',columns='state',values='sales',aggfunc='sum')
 
 pivot_table_7=final.pivot_table(index='gender',columns='colour',values='quantity',aggfunc='sum')
 
 pivot_table_8=final.pivot_table(index='product_type',columns='gender',values='quantity',aggfunc='sum')
 
-pivot_table_9=final.pivot_table(index='product_type',columns='gender',values='total_price',aggfunc='sum')
+pivot_table_9=final.pivot_table(index='product_type',columns='gender',values='sales',aggfunc='sum')
 
  
  

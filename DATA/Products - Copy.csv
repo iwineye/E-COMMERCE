@@ -1,4 +1,4 @@
-product_ID,product_type,product_name,size,colour
+product_id,product_type,product_name,size,colour
 0,Shirt,Oxford Cloth,XS,red
 1,Shirt,Oxford Cloth,S,red
 2,Shirt,Oxford Cloth,M,red
