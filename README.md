@@ -1,9 +1,3 @@
-# E-COMMERCE
-EXCEL DATA MERGING USING PYTHON
-AUTOMATION OF BASIC INSIGHTS WITH PIVOT TABLES USING PYTHON 
-EXCEL DASH BOARD
-SALES PROJECTIONS OF CUSTOMISED CLOTHING LINE STARTUP BASED IN AUSTRALIA
-
 An AUSTRALIA based fashion clothing startup known for customized clothes has registered lower sales in the second year of its inception. This is an attempt to study the performance and analysis of the sales for two years and predict the future sales.
 
 ## MERGING EXCEL DATA USING PYTHON
