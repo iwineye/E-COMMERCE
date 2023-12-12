@@ -14,3 +14,6 @@ https://github.com/iwineye/E-COMMERCE/blob/main/DASHBOARD/ECOM_EXCEL_DASHBOARD.p
 
 ## PREDICTION OF SALES 
 After analysing the data and behaviour of the sales. Future sales are predicted using SARIMAX.
+![sales_model_prediction](https://github.com/iwineye/E-COMMERCE/assets/96835772/84f4029b-3f5f-4497-9ad0-ff6c361e25b2)
+
+![sales forecast](https://github.com/iwineye/E-COMMERCE/assets/96835772/00e67177-616c-4e57-bd07-4f459f0a3dff)
