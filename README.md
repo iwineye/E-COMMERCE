@@ -1,5 +1,5 @@
 An AUSTRALIA based fashion clothing startup known for customized clothes has registered lower sales in the second year of its inception. This is an attempt to study the performance and analysis of the sales for two years and predict the future sales.
-
+![Project Overview](ECOM.PNG)
 ## MERGING EXCEL DATA USING PYTHON
 Since data is in different files. We combine the data using python into a single file for better analysis.
 
